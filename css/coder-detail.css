@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	width: 80%;
+	margin: 20px auto;
+}
+.perfildetallado{
+	width: 100%;
+	border: 2px solid gray;
+	padding: 20px;
+}
+.fotoprincipal{
+	position: relative;
+	left: 380px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-position: 200px 200px;
+	background-image: url("../img/profile-1.png");
+}
+h1,p{
+	text-align: center;
+}
+p{
+	width: 50%;
+	position: relative;
+	left: 250px;
+}
+.html, .css, .java{
+	height: 50px;
+	background-color: gray;
+	color:white;
+	margin: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.html{
+	width: 600px;
+}
+.css{
+	width: 450px;
+}
+.java{
+	width: 300px;
+}
+.izquierda, .central, .derecha{
+	width: 250px;
+	height: 200px;
+	background-size: cover;
+	margin: 20px;
+	display: inline-block;
+}
+.izquierda{
+	background-image: url("../img/p5.jpg");
+}
+.central{
+	background-image: url("../img/p6.jpg");
+}
+.derecha{
+	background-image: url("../img/p8.jpg");
+}
+
+
